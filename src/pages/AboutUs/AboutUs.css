@@ -1,0 +1,39 @@
+.about-us {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+  padding: 40px;
+  margin: 0 auto;
+  max-width: 1200px;
+  box-sizing: border-box;
+}
+
+.about-us h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(255, 140, 0);
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.about-us p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .about-us {
+    padding: 20px;
+  }
+
+  .about-us h1 {
+    font-size: 2rem;
+  }
+
+  .about-us p {
+    font-size: 1rem;
+  }
+}  

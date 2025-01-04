@@ -1,0 +1,39 @@
+.contact-info {
+  padding: 20px;
+  background-color: #f4f7fb;
+  font-family: Arial, sans-serif;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info p {
+  color: #34495e;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.contact-info strong {
+  color: #e67e22;
+  font-weight: bold;
+}
+
+.contact-info a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  color: #2ecc71;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-info {
+    padding: 15px;
+  }
+
+  .contact-info p {
+    font-size: 1rem;
+  }
+}
