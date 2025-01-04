@@ -1,0 +1,56 @@
+.how-to-find-us-container {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.how-to-find-us-container h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: rgb(255, 140, 0);
+}
+
+.how-to-find-us-container p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.how-to-find-us-container iframe {
+  width: 100%;
+  height: 200px;
+  border: none;
+}
+
+.map-image-container {
+  margin-top: 20px;
+}
+
+.map-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  max-height: 250px;
+}
+
+@media (min-width: 768px) {
+  .how-to-find-us-container {
+    padding: 3rem 2rem;
+  }
+
+  .how-to-find-us-container h1 {
+    font-size: 2.5rem;
+  }
+
+  .how-to-find-us-container p {
+    font-size: 1.2rem;
+  }
+
+  .how-to-find-us-container iframe {
+    max-width: 600px;
+    height: 300px;
+  }
+
+  .map-image {
+    max-height: 300px;
+  }
+}
